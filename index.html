@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Lib Bootstrap 4.0.0 -->
+    <link rel="stylesheet" href="./css/libs/bootstrap-grid.min.css">
     <!-- Common -->
     <link rel="stylesheet" href="./css/common.css">
     <!-- Fonts -->
@@ -16,50 +18,108 @@
     <title>Revo</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-
-            <!-- Header Content -->
-            <div class="header__content header-content">
-                <a href="#">
-                    <img class="header-content__logo" src="./img/logo.png" alt="logo" />
-                </a>
-                <p class="header-content__title">
-                    YOUR
-                    <span class="header-content__title--span">
+<!-- Section Header -->
+<header class="header">
+    <div class="header__container">
+        <!-- Header Content -->
+        <div class="header__content header-content">
+            <a href="#">
+                <img class="header-content__logo" src="img/header/logo.png" alt="logo"/>
+            </a>
+            <p class="header-content__title">
+                YOUR
+                <span class="header-content__title--span">
                         PERSONALIZED
                     </span>
-                    COFFEE
-                </p>
-            </div>
-
-            <!-- Header Video -->
-            <div class="header__video header-video">
-                <img class="header-video__img" src="./img/header-video.png" alt="header-video" />
-                <a class="header-video__button header-video-button">
-                    <span class="header-video-button__arrow-play"></span>
-                </a>
-            </div>
-
-            <!-- Header Nav -->
-            <nav class="header__nav header-nav">
-                <a href="#">
-                    <img src="./img/shopping-cart.svg" alt="shopping-cart" />
-                </a>
-                <ul class="header-nav__menu header-nav-menu">
-                    <li class="header-nav-menu__item header-nav-menu__item--active"><a href="#"> TRANG CHỦ </a></li>
-                    <li class="header-nav-menu__item"><a href="#"> COFFEE </a></li>
-                    <li class="header-nav-menu__item"><a href="#"> PHIN MẠ MÀU </a></li>
-                    <li class="header-nav-menu__item"><a href="#"> COMBO PHIN PHÊ </a></li>
-                    <li class="header-nav-menu__item"><a href="#"> GIFTSET </a></li>
-                    <li class="header-nav-menu__item"><a href="#"> LIÊN HỆ </a></li>
-                </ul>
-            </nav>
-
+                COFFEE
+            </p>
         </div>
-    </header>
+        <!-- Header Video -->
+        <div class="header__video header-video">
+            <img class="header-video__img" src="img/header/header-video.png" alt="header-video"/>
+            <a class="header-video__button header-video-button">
+                <span class="header-video-button__arrow-play"></span>
+            </a>
+        </div>
+        <!-- Header Nav -->
+        <nav class="header__nav header-nav">
+            <a href="#">
+                <img src="img/header/shopping-cart.svg" alt="shopping-cart"/>
+            </a>
+            <ul class="header-nav__menu header-nav-menu">
+                <li class="header-nav-menu__item header-nav-menu__item--active"><a href="#"> TRANG CHỦ </a></li>
+                <li class="header-nav-menu__item"><a href="#"> COFFEE </a></li>
+                <li class="header-nav-menu__item"><a href="#"> PHIN MẠ MÀU </a></li>
+                <li class="header-nav-menu__item"><a href="#"> COMBO PHIN PHÊ </a></li>
+                <li class="header-nav-menu__item"><a href="#"> GIFTSET </a></li>
+                <li class="header-nav-menu__item"><a href="#"> LIÊN HỆ </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Section Main -->
+<main class="main">
+    <!-- Section Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <!-- Categories Title -->
+                <div class="col-lg-12 categories__col">
+                    <h3 class="categories__subtitle">
+                        Your Personalized Coffee
+                    </h3>
+                    <h2 class="categories__title">
+                        COFFEE BUILD YOUR BASE
+                    </h2>
+                </div>
+            </div>
+            <div class="row categories__row">
+                <!-- Categories Item -->
+                <div class="col-lg-3 categories__item categories-item">
+                    <img class="categories-item__img" src="./img/categories/item-1.svg" alt="item-1"/>
+                    <h3 class="categories-item__title">
+                        Nguồn gốc
+                    </h3>
+                    <p class="categories-item__desc">
+                        Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.
+                    </p>
+                </div>
+                <!-- Categories Item -->
+                <div class="col-lg-3 categories__item categories-item">
+                    <img class="categories-item__img" src="./img/categories/item-2.svg" alt="item-2"/>
+                    <h3 class="categories-item__title">
+                        Chất lượng
+                    </h3>
+                    <p class="categories-item__desc">
+                        Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.
+                    </p>
+                </div>
+                <!-- Categories Item -->
+                <div class="col-lg-3 categories__item categories-item">
+                    <img class="categories-item__img" src="./img/categories/item-1.svg" alt="item-3"/>
+                    <h3 class="categories-item__title">
+                        Các loại hạt
+                    </h3>
+                    <p class="categories-item__desc">
+                        70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.
+                    </p>
+                </div>
+                <!-- Categories Item -->
+                <div class="col-lg-3 categories__item categories-item">
+                    <img class="categories-item__img" src="./img/categories/item-1.svg" alt="item-4"/>
+                    <h3 class="categories-item__title">
+                        Pha chế
+                    </h3>
+                    <p class="categories-item__desc">
+                        Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
 
-    <script src="./js/script.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>

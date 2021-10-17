@@ -1,4 +1,5 @@
 # Ignore .idea
 /.idea
 
+# Local files
 /local-info

@@ -4,6 +4,10 @@
     outline: none;
 }
 
+body {
+    background-color: #f9fbff;
+}
+
 body, h1, h2, h3, p, a, ul, li {
     padding: 0;
     margin: 0;
