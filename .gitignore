@@ -1,5 +1,4 @@
 # Ignore .idea
 /.idea
 
-# Fix
-trouble.md
+/local-info
