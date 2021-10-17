@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: Nunito-Light;
+    src: url("../fonts/Nunito/Nunito-Light.ttf") ;
+}
+
+@font-face {
     font-family: Nunito-LightItalic;
     src: url("../fonts/Nunito/Nunito-LightItalic.ttf") ;
 }

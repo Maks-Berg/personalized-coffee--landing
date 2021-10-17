@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="auto">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Common -->
+    <link rel="stylesheet" href="./css/common.css">
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts.css">
     <!-- Css -->
@@ -14,7 +16,48 @@
     <title>Revo</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
 
+            <!-- Header Content -->
+            <div class="header__content header-content">
+                <a href="#">
+                    <img class="header-content__logo" src="./img/logo.png" alt="logo" />
+                </a>
+                <p class="header-content__title">
+                    YOUR
+                    <span class="header-content__title--span">
+                        PERSONALIZED
+                    </span>
+                    COFFEE
+                </p>
+            </div>
+
+            <!-- Header Video -->
+            <div class="header__video header-video">
+                <img class="header-video__img" src="./img/header-video.png" alt="header-video" />
+                <a class="header-video__button header-video-button">
+                    <span class="header-video-button__arrow-play"></span>
+                </a>
+            </div>
+
+            <!-- Header Nav -->
+            <nav class="header__nav header-nav">
+                <a href="#">
+                    <img src="./img/shopping-cart.svg" alt="shopping-cart" />
+                </a>
+                <ul class="header-nav__menu header-nav-menu">
+                    <li class="header-nav-menu__item header-nav-menu__item--active"><a href="#"> TRANG CHỦ </a></li>
+                    <li class="header-nav-menu__item"><a href="#"> COFFEE </a></li>
+                    <li class="header-nav-menu__item"><a href="#"> PHIN MẠ MÀU </a></li>
+                    <li class="header-nav-menu__item"><a href="#"> COMBO PHIN PHÊ </a></li>
+                    <li class="header-nav-menu__item"><a href="#"> GIFTSET </a></li>
+                    <li class="header-nav-menu__item"><a href="#"> LIÊN HỆ </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
 
 
     <script src="./js/script.js"></script>
